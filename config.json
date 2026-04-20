@@ -1,0 +1,15 @@
+{
+    "token": "",
+    "category_id": 1484001567370772500,
+    "closed_category_id": 1484001567370772500,
+    "support_role_ids": [],
+    "log_channel_id": 1484001677861327060,
+    "panel_title": "Crown Clothing Tickets",
+    "panel_description": "Click the button below to make a ticket!",
+    "panel_button_text": "Click to make a ticket!",
+    "panel_button_color": "gray",
+    "ticket_welcome_message": "Welcome to your ticket. Please say what clothing you want to buy.",
+    "ticket_name_format": "ticket-{number}",
+    "allow_multiple_tickets": false,
+    "ticket_counter": 7
+}
