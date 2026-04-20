@@ -773,5 +773,9 @@ async def admin_command_error(interaction: discord.Interaction, error):
         await interaction.response.send_message(message, ephemeral=True)
 
 
+import os
+
 config = load_config()
-bot.run(config["token"])
+token = os.getenv("TOKEN") or config["token"]
+
+bot.run(token)
